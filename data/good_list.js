@@ -8,7 +8,7 @@ module.exports = () => {
         icon: "",
         goods: [
           {
-            cartCount: 0,
+            cartCount: 2,
             checked: true,
             id: 1,
             imgUrl: "/imgs/shop_page/goods-1.jpeg",
