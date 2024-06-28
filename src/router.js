@@ -4,6 +4,7 @@ const shop_list = require("./controller/shop_list");
 const auth = require("./controller/auth");
 const shop = require("./controller/shop_detail");
 const comment = require("./controller/comment_list");
+const goods_detail = require("./controller/goods_detail");
 
 module.exports = (app) => {
   app.use("/api/test", test);
@@ -12,4 +13,5 @@ module.exports = (app) => {
   app.use("/api/auth", auth);
   app.use("/api/shop_page", shop);
   app.use("/api/comment_list", comment);
+  app.use("/api/goods_detail", goods_detail);
 };
